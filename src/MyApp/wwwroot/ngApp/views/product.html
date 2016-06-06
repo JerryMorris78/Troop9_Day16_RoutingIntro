@@ -1,0 +1,8 @@
+﻿<h1>List of Products</h1>
+<hr />
+
+<ul>
+    <li ng-repeat="product in controller.products">
+        {{product.id}}: {{product.name}} = {{product.price|currency}}
+    </li>
+</ul>
